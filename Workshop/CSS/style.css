@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS */
+@font-face {
+    font-family: myFont;
+    src: url(font/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(font/Lato-Bold.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url("../img/background.jpg");
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+    padding: 200px;  
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle {
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+
+}
+
+header img {
+    margin-top: 0px;
+}
+
+header h2 {
+    font-family: myFont;
+    font-style: 3em;
+    color: #ffffff;
+    text-align: center;
+}
+
+#sec1 {
+    height: 500px;
+    background: #5b0b0b;
+    min-height: 700px;
+}
+
+#sec1 h3 {
+    font-family: myFont2;
+    color: #fffcff;
+    text-align: center;
+    font-size: 5em;
+}
+
+#sec1 p {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-family: myFont;
+    text-align: center;
+}
+
+#sec2 {
+    background-image: url(../img/bg2.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+    padding: 200px;
+    min-height: 500px;
+    padding-top: 200px;
+    color: #ffffff;
+}
+
+#sec2 h3 {
+    font-family: myFont2;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+#sec2 p {
+    padding-top: 10px;
+    font-family: myFont;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.container {
+    margin: 0 auto; /* center container */
+    width: 1000px;
+}
+
+.left {
+    float: left;
+    width: 450px;
+}
+
+.right {
+    float: right;
+    width: 450px;
+    font-family: myFont;
+    font-size: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 500px;
+    padding: 10px;
+}
+
+/*h1 {
+    font-family: myFont;
+    font-size: 5em;
+    letter-spacing: 5px;
+    color: #ff0004;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+body {
+    background-image: 
+}
+
+h1.heading {
+    font-size: 3em;
+}
+
+.blue {
+    color: #0613FF;
+}
+
+.yellowBackground {
+    background: #FFF500;
+}
+
+.parColor {
+    color: white;
+}
+
+.parGround {
+    background: #5e0814;
+}
+
+
+*/
+

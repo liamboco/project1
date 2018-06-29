@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sneak a Peak</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fourthday.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand">
+            <img src="../BootStrap/img/icon.png" class="d-inline-block align-top" width="50" height="50">
+        </a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#section1" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section2" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section3" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section4" class="nav-link">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="section1" class="jumbotron jumbotron-fluid d-block mt-5 mb-5">
+        <div class="container">
+            <h1 class="display-1">Welcome to my Website!</h1>
+            <hr>
+            <p class="lead">I am William Boco taking up Bachelor of Science in Information Technology with specialization in Web Development</p>
+        </div>
+    </div>
+
+    <div id="section2" class="container">
+        <div class="row">
+            <div class="col-lg-6 col-s-12">
+                <img src="../BootStrap/img/ultra.jpg">
+                <h1 class="display-5">Ultraboost and NMD</h1>
+                <p class="lead">These are the finest shoes of the brand Adidas. Also, these are there best-selling shoes as of now.</p>
+            </div>
+            <div class="col-lg-6 col-s-12">
+                <h1 class="display-4">Information</h1>
+                <p class="display-3">Ultraboost</p>
+                <p class="lead">These running shoes combine comfort and high-performance technology for a best-ever-run feeling. They have a stretchy knit upper that adapts to the changing shape of your foot as you run. Responsive midsole cushioning and a flexible outsole deliver a smooth and energised ride. </p>
+                <p class="display-3"> NMD</p>
+                <p class="lead">Streamlined and modern, these NMD shoes combine '80s racing heritage with style cues taken from outdoor trail gear. The foot-hugging knit upper rides on a responsive cushioned midsole. </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="section3" class="jumbotron jumbotron-fluid d-block d-s-none">
+        <div class="container">
+            <h1 class="display-4">Contact</h1>
+            <p class="lead">Feel free to contact me! Below are my contact details <br>Email: 201603007@iacademy.edu.ph<br>Cellphone: 09052834596</p>
+        </div>
+    </div>
+
+    <div id="section4" class="container">
+            <h1 class="display-2 lead">Gallery</h1>
+            <div class="row">
+                <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="../BootStrap/img/lighthouse.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                                <a href="#" class="btn btn-primary">Go Somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="../BootStrap/img/sea.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p class="card-text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                <a href="#" class="btn btn-primary">Go Somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="../BootStrap/img/hehe.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Cum sociis natoque penatibus et</p>
+                                    <a href="#" class="btn btn-primary">Go Somewhere</a>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="col-3">
+                            <div class="card">
+                                <img class="card-img-top" src="../BootStrap/img/hehe.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Cum sociis natoque penatibus et</p>
+                                    <a href="#" class="btn btn-primary">Go Somewhere</a>
+                                </div>
+                            </div>
+                      </div>
+                 </div>  
+        </div>
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../jQuery/js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("body").scrollspy({target:".navbar", offset:50});
+        });
+    </script>
+</body>
+</html>

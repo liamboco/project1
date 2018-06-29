@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.jumbotron {
+    background-image: url(../img/grey.png);
+    height: 100vh;
+    color: white;
+}
+
+.jumbotron p {
+    padding: 0 0 60px 70px;
+    margin-top: 250px;
+}
+
+#section3 {
+    background-image: url(../img/3.jpg);
+    padding: 0 auto;
+}

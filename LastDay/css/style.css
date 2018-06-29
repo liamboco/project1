@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-caption h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    color: black;
+}
+
+.carousel-caption p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+#cardSection {
+    background-color: #510606;
+    text-align: center;
+}
+
+#cardSection h5 {
+    font-family: 'Lato', sans-serif; 
+}
+
+#cardSection img {
+    border-radius: 500px;
+    display: block;
+    padding-top: 10px;
+}
+
+.jumbotron {
+    background-image: url(../img/green.png);
+}
+
+.container h1 {
+    padding-right: 100px;
+    color: #515689;
+}
+
+.container p {
+    color: #515689;
+    padding-left: 10S0px;
+}
+
+#gallerySection h1{
+    color: black;
+}
+

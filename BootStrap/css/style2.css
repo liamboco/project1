@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+h1 {
+    font-size: 5em;
+}
+
+.jumbotron {
+    background-image: url(../img/cloud.jpg);
+    background-size: cover;
+    color: orange;
+    background-color: #3845D5;  
+}
+
+.container h1:hover {
+    color: green;
+    height: 200px;
+}

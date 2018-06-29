@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: myFont;
+    src: url(font/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(font/Lato-Bold.ttf);
+}
+
+body {
+    background-image: url(../img/cloud.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    color: black;
+    padding: 0 auto 0 10px;
+}
+
+header {
+    text-align: center;
+    font-size: 10em;
+    font-family: myFont2;
+}   
+
+.container2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+footer {
+    margin-top: 10px;
+    color: white;
+}
+
+section {
+    padding-top: 10px;
+}
+

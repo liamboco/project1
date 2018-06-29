@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.jumbotron {
+    background-image: url(../img/connectwork.png);
+    color:white;
+}
+
+#cardSection {
+    background-color: black;
+}
+
+
